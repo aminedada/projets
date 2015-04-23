@@ -1,0 +1,16 @@
+body
+{
+    background-color:#0095cf
+}
+div
+{
+    background-color: #ffffff;
+    display: block;
+    width: 250px;
+}
+label
+{
+    display: block;
+    width: 150px;
+    color: #666;
+}

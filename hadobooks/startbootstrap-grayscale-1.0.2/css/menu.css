@@ -1,0 +1,81 @@
+menu li{
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100px;
+    top: 320px;
+    left: 26%;
+    padding: 10px;
+    list-style: none;
+}
+
+#about {
+background-image:url('../../image/book.jpg');
+background: cover;
+width:100%;
+height: 100%;
+}
+
+menu li a{
+    display: block;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border: 0px solid rgba(0,0,0,0.7);
+    transition-property: width,height,margin,z-index,border;
+    transition-duration: 0.4s;
+}
+
+menu li a:hover {
+    position:absolute;
+    width:180px;
+    height:180px;
+    margin-top:-56px;
+    margin-left:-56px;
+    z-index:100;
+    border:3px solid rgba(0,0,0,0.7);
+}
+
+menu li a img{
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     z-index: 20;
+     transition-property: width,height,z-index;
+     transition-duration: 0.4s;
+}
+
+menu li a:hover img{
+     width:200px;
+     height:200px;
+     z-index:100;
+}
+
+div.img {
+    display: inline-flex;
+    margin: 5px;
+    padding: 5px;
+    border: 0;
+    height: auto;
+    width: auto;
+    float: left;
+<<<<<<< .mine
+    position: relative;
+    margin-left: 17%;      
+=======
+    text-align: center;
+>>>>>>> .r1459
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
