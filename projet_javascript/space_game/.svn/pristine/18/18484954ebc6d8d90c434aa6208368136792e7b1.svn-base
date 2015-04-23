@@ -1,0 +1,301 @@
+body{
+	position: absolute;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	background-image: url(geminiwars_site_background_by_krzyzowiec-d3ivlzb.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/*HEADER*/
+
+h1{
+	margin: 0;
+	font-family: Arial,sans-serif;
+	color: gray;
+}
+
+#header{
+	width: 100%;
+	height: 110px;
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+
+#co{
+	/*Taille / Style*/
+	width: 150px;
+    height: 35px;
+	margin: 0;
+	margin-right: 15px;
+    padding-top: 7px;
+    border-radius: 8px;
+    display: block;
+
+	/*Caractere style*/
+	font-family: Arial,sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #000;
+    background: #444;
+    text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
+    
+   
+    background: linear-gradient( #555, #2C2C2C);
+    box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
+                0 -1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+#co:hover{
+     color: #222;
+     background: #555;
+     background: linear-gradient( #777, #333);
+}
+
+#co:active{
+     color: #000;
+     background: #444;
+     background: linear-gradient( #555, #2C2C2C);
+     box-shadow: 1px 1px 10px black inset, 
+                 0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+#connexion{
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+	height: 250px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #170B3B;
+	border-width: 5px;
+}
+
+p{
+	margin: 0;
+	color: white;
+	font-family: Arial,sans-serif;
+}
+
+#img_cristal{
+	display: inline-block;
+	width: 90px;
+	height: 45px;
+	margin-top: 25px;
+	margin-left: 10%;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#img_metal{
+	display: inline-block;
+	width: 90px;
+	height: 45px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.niveau{
+	width: 90%;
+	height: 20px;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.prod{
+	width: 90%;
+	height: 20px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#quant{
+	width: 90%;
+	height: 20px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.lv_up{
+	width: 40%;
+	height: 20px;
+	display: block;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#amount_cri{
+	display: inline-block;
+	width: 10%;
+	height: 20px;
+	color: red;
+}
+#amount_met{
+	display: inline-block;
+	width: 10%;
+	height: 20px;
+	color: red;
+}
+
+#profile{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 20%;
+	float: left;
+	height: 100px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 8px;
+	color: white;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center
+}
+
+#ressource{
+	display: block;
+	margin-top: 10px;
+	float: right;
+	margin-right: 15px;
+	width: 70%;
+	height: 100px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 8px;
+	color: white;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center
+}
+
+#mine_cristal{
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 15px;
+	width: 20%;
+	float: left;
+	height: 150px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 8px;
+	text-decoration: underline;
+	color: white;
+	font-weight: bold;
+	text-align: center
+}
+
+#Usine{
+	display: inline-block;
+	float: right;
+	margin-top: 50px;
+	margin-right: 15px;
+	width: 20%;
+	height: 300px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 8px;
+	text-decoration: underline;
+	color: white;
+	font-weight: bold;
+	text-align: center
+}
+
+#bataille{
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 50px;;
+	margin-right: auto;
+	width: 42%;
+	height: 300px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 8px;
+	text-decoration: underline;
+	color: white;
+	font-weight: bold;
+	text-align: center
+}
+
+#mine_metal{
+	display: inline-block;
+	margin-top: -140px;
+	margin-left: 15px;
+	width: 20%;
+	height: 150px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 8px;
+	text-decoration: underline;
+	color: white;
+	font-weight: bold;
+	text-align: center
+}
+
+#usi_but{
+	width: 40%;
+	height: 20px;
+	display: block;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#id_atk{
+	width: 5%;
+	height: 20px;
+	display: block;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#nbr_id{
+	width: 90%;
+	height: 20px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#nbr_droid{
+	width: 90%;
+	height: 20px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#qte_droid{
+	width: 5%;
+	height: 20px;
+	display: block;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#btn_atk{
+	width: 30%;
+	height: 20px;
+	display: block;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}

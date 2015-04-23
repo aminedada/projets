@@ -1,0 +1,29 @@
+main
+{
+    overflow:auto;
+    padding-bottom: 150px
+}
+
+#footer 
+{
+    position: relative;
+    clear:both;
+    margin-top: -150px;
+    height: 2000px;
+}
+.logo
+{
+    position:absolute;
+    left: 0px;
+} 
+.content img{
+margin: 3px;
+width: 250px;
+height:150px;
+
+}
+/*.1logo
+{
+    position:absolute;
+        left: 500px;
+}*/

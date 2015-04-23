@@ -1,0 +1,16 @@
+#images 
+{
+    width: 800px;
+    height: 290px;
+    overflow: hidden;
+    margin: 20px;
+    
+ }
+#slider .imga
+{
+    text-decoration: none;
+    background: black;
+    margin-right: 40px;
+    padding: 0px 6px;
+    color: white;
+}

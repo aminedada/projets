@@ -1,0 +1,18 @@
+/*
+** quete_1.c for quete1 in /home/jalet_y/battle_for_midgard/quete_1
+** 
+** Made by JALET Yvane
+** Login   <jalet_y@etna-alternance.net>
+** 
+** Started on  Fri Oct 10 13:05:00 2014 JALET Yvane
+** Last update Fri Oct 10 16:46:56 2014 JALET Yvane
+*/
+#include <stdlib.h>
+#include <stdio.h>
+#include "perso.h"
+#include "ennemi.h"
+
+void	()
+{
+
+}

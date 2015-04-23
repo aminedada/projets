@@ -1,0 +1,34 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css-footer.css" />
+</head>
+<body>
+<div id="wrap">
+ 
+    <div id="main" class="clearfix">
+    le contenu
+    </div>
+ 
+</div>
+ 
+<div id="footer">
+    Mon pied de page ici
+</div>
+
+
+<footer>
+<div style="width:autopx;height:150px;color:white;background:grey;">
+<a href="sessions.html"><img style="width:autopx;position:relative;left:1%;"src="image/mockup.png" alt="SAV"/></a>
+<a href="sessions.html"><img style="width:autopx;position:relative;left:20%;top:5%;" src="image/contacte.png" alt="contacte"/></a>
+<a href="sessions.html"><img style="width:autopx;position:relative;left:40%;top:5%"src="image/rejoignez-nous.png" alt="rejoignez-nous"/></a>
+<a href="sessions.html"><img style="width:autopx;position:relative;left:60%;top:5%"src="image/mon-compte.png" alt="mon-compte"/></a>
+<a href="sessions.html"><img style="width:autopx;position:relative;left:-15%;top:65%;"src="image/paiment.png" alt="paiment"/></a>
+<a href="sessions.html"><img style="width:autopx;position:relative;left:5%;top:65%;" src="image/livraison.png" alt="livraison"/></a>
+<a href="sessions.html"><img style="width:autopx;position:relative;left:30%;top:65%;" src="image/aide.png" alt="aide"/></a>
+
+
+</div>
+</footer>
+</body>
+</html>

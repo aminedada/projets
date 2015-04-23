@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/css.css"  />
+    <link rel="stylesheet" href="../css-footer.css"  />
+    <title>YournextDream</title>
+  </head>
+  <body>
+    <div class="placement">
+      <section class="header">
+	<h1>
+          <a href= "../pageac.html"><h1>Your<span class="next">next</span>Dream </h1></a>
+          <FORM METHOD=POST ACTION="../moncompte.html">
+            <button class="compte" onclick="ClicBouton();">Mon Compte</button>
+          </form>
+          <FORM METHOD=POST ACTION="../monpanier.html">
+            <button class="compte" onclick="ClicBouton();">Mon Panier</button>
+          </form>
+          <br />
+	</h1>
+	<p>
+          <FORM METHOD=POST ACTION="../pageac.html">
+            <div class="msgr"> Nous ne vendons pas des voyages
+              <input class="recherche" type="text" name="a" size="75" placeholder="Your next dream ?" />
+              mais du reve... </div>
+          </form>
+	</p>
+	<ul>
+	  <li><a href="../pageac.html">Home</a></li>
+          <li><a href="../continent/europe.html">Europe</a></li>
+          <li><a href="../continent/asie.html">Asie</a></li>
+          <li><a href="../continent/amerique.html">Amerique</a></li>
+          <li><a href="../continent/afrique.html">Afrique</a></li>
+          <li><a href="../continent/espace.html">Espace</a></li>
+	</ul>
+	<br />
+      </section>
+      <FORM METHOD=POST ACTION="contact.html">
+	<input type="text" name="prenom" size="75" placeholder="Votre Prenom"/>
+	<br />
+      </form>
+      <FORM METHOD=POST ACTION="contact.html">
+	<input type="text" name="nom" size="75" placeholder="Votre nom"/>
+	<br />
+      </form>
+      <FORM METHOD=POST ACTION="contact.html">
+	<input type="text" name="email" size="75" placeholder="exemple@gmail.com"/>
+	<br />
+      </form>
+      <FORM METHOD=POST ACTION="contact.html">
+	<TEXTAREA NAME=Message rows=5 cols=30 placeholder="Votre message"></TEXTAREA>   
+      </form>
+      <br />
+      <FORM METHOD=POST ACTION="contact.html">
+	<button onclick="ClicBouton();">Valider</button>
+      </form>	
+      <footer>
+	<div style="width:autopx;height:150px;color:white;background:grey;">
+	  <a href="SAV.html"><img style="width:autopx;position:relative;left:1%;" src="image/mockup.png" alt="SAV"/></a>
+	  <a href="contact.html"><img style="width:autopx;position:relative;left:20%;top:5%;" src="image/contacte.png" alt="contacte"/></a>
+	  <a href="rejoignez-nous.html"><img style="width:autopx;position:relative;left:40%;top:5%" src="image/rejoignez-nous.png" alt="rejoignez\
+																	-nous"/></a>
+	  <a href="../moncompte.html"><img style="width:autopx;position:relative;left:60%;top:5%" src="image/mon-compte.png" alt="mon-compte"/></a>
+	  <a href="paiment.html"><img style="width:autopx;position:relative;left:-15%;top:65%;" src="image/paiment.png" alt="paiment"/></a>
+	  <a href="livraison.html"><img style="width:autopx;position:relative;left:5%;top:65%;" src="image/livraison.png" alt="livraison"/></a>
+	  <a href="aide.html"><img style="width:autopx;position:relative;left:30%;top:65%;" src="image/aide.png" alt="aide"/></a>
+	  
+	  
+	</div>
+	<div style="background:grey;width:autopx;height:auto;">
+          <center><em>  YournextDream - 2014 Copyright ©</em></center>
+	</div>
+      </footer>
+    </div>
+  </body>
+</html>
+
+  

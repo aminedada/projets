@@ -1,0 +1,164 @@
+.supreart
+{
+display: inline-block;
+}
+.placement
+{
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    background-color: MintCream;
+}
+body
+{
+    background-image: url("../imagequentin/fond.jpg");
+    background-repeat: no-repeat center center fixed;
+    background-size: cover;
+}
+.compte
+{
+outline: none;
+width: 115px;
+height: 40px;
+text-shadow: 0px 1px 0px black;
+border-radius: 8px;
+float: right;
+margin-right: 30px; 
+margin-top: -20px; 
+background: white;
+font-family: arial;
+}
+h1
+{
+margin-top: -10px; 
+color:black;
+font-size: 50px;
+font-family: Courier New;
+
+}
+h1 a:link
+{
+text-decoration: none;
+}
+.next
+{
+font-size: 30px;
+color:grey
+}
+.recherche
+{
+height: 20px;
+border-radius: 8px;
+}
+.msgr
+{
+width:750px; 
+margin:0 auto 0 auto;
+margin-top: -75px; 
+font-size: 15px;
+font-family: arial;
+}
+
+ul{
+    display: table;
+    width: 700px;
+    margin: 0px auto;
+    padding: 0;
+    background: linear-gradient(black, grey);
+    border-radius: 3px;
+}
+
+ul li{
+
+    color:white;
+    display: table-cell;
+}
+ul li a{
+
+    display: block;
+    text-align: center;
+    color: white; 
+    text-decoration: none;
+    padding: 6px 6px 6px 6px;
+    font-family: arial;
+}
+ul li a:hover, 
+ul li a:focus{
+    background: rgba(255,255,255, .10);
+} 
+.header
+{
+    background: linear-gradient(DarkTurquoise, Mintcream);
+}
+
+.reduc
+{
+font-size: 50px;
+margin-right: 250px;
+font-family: arial;
+margin-top: -380px; 
+font-family: arial;
+}
+.asie
+{
+margin-top: -125px;
+font-size: 50px;
+font-family: arial;
+margin-right: -560px;
+font-family: arial;
+transform: rotate(50deg);
+}
+.imagereduc
+{
+margin-top: 25px; 
+}
+.mvente
+{
+font-size: 25px;
+margin-left: 50px;
+}
+.deuxieme
+{
+background: linear-gradient(green ,white, white)no-repeat;
+}
+.line1
+{
+border-bottom:5px solid black;
+width: 500px;
+margin-top:-20px;
+margin-left: 50px;
+}
+.imagemv
+{
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+
+}
+.new
+{
+font-size: 15px;
+font-family: arial;
+}
+.affb
+{
+font-size: 20px;
+margin-top: 50px;
+}
+.newv
+{
+margin-left: 50px;
+margin-top: -2px;
+font-size: 25px;
+}
+.imagenv
+{
+margin-left: 50px;
+margin-top: -20px;
+
+}

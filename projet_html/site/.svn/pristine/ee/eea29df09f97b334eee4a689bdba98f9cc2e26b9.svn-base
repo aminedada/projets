@@ -1,0 +1,6 @@
+body
+{
+    background-image: url("../imagequentin/thail.jpg");
+    background-repeat: no-repeat center center fixed;
+    background-size: cover;
+}

@@ -1,0 +1,27 @@
+<html>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/css-session.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Bienvenue sur Your-next-Dream, le site de vente des voyages insolites.">
+  <title>Your-next-Dream</title>
+</head>
+<body>
+  <form id="Inscrip" method="post" action="pageac.html">  
+    <legend align="left"><div id="fieldtitre">Formulaire d inscription</div></legend> 
+    <p><label fro="login"></label><input type="text" id="login" name="login" tabindex="2" value="" placeholder="login" /></p>
+    <p><label for="pwd"></label><input type="password" id="pwd" name="pwd" tabindex="2" placeholder="Mot de passe"/></p>
+    <p><label for="prenom"></label><input type="text" id="prenom" name="prenom" tabindex="2" placeholder="prenom"/></p>
+    <p><label for="nom"></label><input type="text" id="nom" name="nom" tabindex="2" placeholder="nom" /></p>
+    <p><label for="adresse email"></label><input type="text" id="adresse email" name="adresse email" tabindex="2" placeholder="adresse mail"/></p>
+    <p><label for="age"></label><input type="number" id="age" name="age" tabindex="2" placeholder="age"/></p> 
+    <p><label for="pays"></label><input type="text" id="pays" name="pays" tabindex="2" placeholder="pays"/></p>
+    <p><label for="adresse"></label><input type="adresse" id="adresse" name="adresse" tabindex="2" placeholder="adresse postal"/></p>
+    <p><label for="code"></label><input type="code postal" id="code postal" name="code postal" tabindex="2" placeholder="code postal"/></p>
+    <div><input type="submit" name="submit" value="Inscription" tabindex="3" /></div>
+    <div><input type="submit" name="submit" value="Annuler" tabindex="3" /></div>
+  </form>
+<body>
+</body>
+</html>
+   

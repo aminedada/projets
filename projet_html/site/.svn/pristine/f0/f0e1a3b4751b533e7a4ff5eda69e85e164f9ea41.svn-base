@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/css.css"  />
+    <link rel="stylesheet" href="../css/css-1.css"  />
+    <link rel="stylesheet" href="../css/css-footer.css"  />
+    <title>YournextDream</title>
+  </head>
+  <body>
+    <div class="placement">
+      <section class="header">
+	<h1>
+          <a href= "../pageac.html"><h1>Your<span class="next">next</span>Dream </h1></a>
+          <FORM METHOD=POST ACTION="../moncompte.html">
+            <button class="compte" onclick="ClicBouton();">Mon Compte</button>
+          </form>
+	  <FORM METHOD=POST ACTION="../monpanier.html">
+            <button class="compte" onclick="ClicBouton();">Mon Panier</button>
+          </form>
+	  <br />
+	</h1>
+	<p>
+          <FORM METHOD=POST ACTION="../pageac.html">
+            <div class="msgr"> Nous ne vendons pas des voyages
+              <input class="recherche" type="text" name="a" size="75" placeholder="Your next dream ?" />
+              mais du reve... </div>
+          </form>
+	</p>
+	<ul>
+	  <li><a href="../pageac.html">Home</a></li>
+          <li><a href="../continent/europe.html">Europe</a></li>
+          <li><a href="../continent/asie.html">Asie</a></li>
+          <li><a href="../continent/amerique.html">Amerique</a></li>
+          <li><a href="../continent/afrique.html">Afrique</a></li>
+          <li><a href="../continent/espace.html">Espace</a></li>
+	</ul>
+	<br />
+      </section>
+      
+      <img class="calendrier" src="../images_produit/calendrier.png"/>    
+      <section class="produit1">
+	<article>
+          <h2>Abuja, Nigeria&nbsp &nbsp</h2>
+          <p>Le Nigeria, destination de rêve pour les touristes ... pour vous ce sera les bouchons ! Venez visiter une ville incroyable ou la circulation n'a ni queue ni tete, des voitures, des motos, des pouspousses, des ânes se croisent se rentre dedans, se double ! Un veritable spectacle a voir une fois dans sa vie. Ne loupez pas cette occasion unique de visiter la ville qui bouge tellement qu'elle est a l'arret</p>
+	</article>
+	
+	<a><img src="../images_produit/abuja1.jpg" alt="Corée du Nord" style="box-shadow:0 0 15px 5px grey;"/>
+	  <img src="../images_produit/abuja3.jpg" alt="Corée du Nord" style="box-shadow:0 0 15px 5px grey;"/></a>
+	<br />
+	<a><img src="../images_produit/abuja2.jpg" alt="Corée du Nord" style="box-shadow:0 0 15px 5px grey;"/>
+	  <em>"Un bouchon a Abuja"</em></a>
+	<div class="placetab">
+	  <table>
+	    
+	    <br /><br /><br /><br /><br />    
+	    <tr>
+              <th></th>
+              <th>Periode</th>
+              <th>Tarifs</th>
+	    </tr>
+	    <tr>
+              <td><input type="checkbox" name="" value="moins15" id="moins15" /></td><label for="moins15"><td>7j/6n du 21/11 au 28/11</td><td> 800$ TTC</td></label>
+	    </tr>
+	    <tr>
+              <td><input type="checkbox" name="" value="medium15-25" id="medium15-25" /></td><label for="medium15-25"><td>7j/6n du 28/11 au 5/12</td><td> 899$ TTC </td></label>
+	    </tr>
+	    <tr>
+              <td><input type="checkbox" name="" value="medium25-40" id="medium25-40" /></td><label for="medium25-40"><td>7j/6n du 5/12 au 12/12</td><td> 850$ TTC</td> </label>
+	    </tr>
+	    <tr>
+              <td> <input type="checkbox" name="" value="plus40" id="plus40" /></td><label for="plus40"><td>7j/6n du 12/12 au 19/12</td><td> 959$ TTC </td></label><br />
+	    </tr>
+	  </table>
+	  <FORM METHOD=POST ACTION="../monpanier.html">	
+	    <button class="reserver" onclick="ClicBouton();" name="reserver" >Reserver</button>
+	  </form>
+	</div>
+	
+      </section>
+      <br /><br /><br />    
+      
+      <footer>
+	<div style="width:autopx;height:150px;color:white;background:grey;">
+	  <a href="../footer/SAV.html"><img style="width:autopx;position:relative;left:1%;" src="../image/mockup.png" alt="SAV"/></a>
+	  <a href="../footer/contact.html"><img style="width:autopx;position:relative;left:20%;top:5%;" src="../image/contacte.png" alt="contacte"/></a>
+	  <a href="../footer/rejoignez-nous.html"><img style="width:autopx;position:relative;left:40%;top:5%" src="../image/rejoignez-nous.png" alt="rejoignez-nous"/></a>
+	  <a href="../moncompte.html"><img style="width:autopx;position:relative;left:60%;top:5%" src="../image/mon-compte.png" alt="mon-compte"/></a>
+	  <a href="../footer/paiment.html"><img style="width:autopx;position:relative;left:-15%;top:65%;" src="../image/paiment.png" alt="paiment"/></a>
+	  <a href="../footer/livraison.html"><img style="width:autopx;position:relative;left:5%;top:65%;" src="../image/livraison.png" alt="livraison"/></a>
+	  <a href="../footer/aide.html"><img style="width:autopx;position:relative;left:30%;top:65%;" src="../image/aide.png" alt="aide"/></a>
+	</div>
+	<div style="background:grey;width:autopx;height:auto;">
+          <center><em>  YournextDream - 2014 Copyright ©</em></center>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
